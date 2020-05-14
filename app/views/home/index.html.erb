@@ -1,0 +1,16 @@
+<h1>Halo Dunia</h1>
+
+<h2><%= @title %></h2>
+
+<ul>
+  <% @langs.each do | lang | %>
+    <li>
+      <%= lang %>
+    </li>
+  <% end %>
+</ul>
+
+<a href="/about/about-us">About us</a><br />
+
+<p>id: <%= @id %></p>
+<p>page: <%= @page %></p>
